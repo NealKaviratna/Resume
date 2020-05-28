@@ -1,0 +1,125 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Neal Kaviratna}}\\
+	Pittsburgh, PA $\cdot$ kaviratnaneal@gmail.com $\cdot$ 9122281121 $\cdot$ https://www.linkedin.com/in/nealkaviratna/\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{Georgia Institute of Technology}\hfill Atlanta, GA\\
+BS Computer Science \hfill Sep 2012 - December 2016\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Work Experience}
+\vspace{1mm}
+
+\textbf{Uber ATG} \hfill Pittsburgh, PA\\
+\textit{Software Engineer - Senior Software Engineer} \hfill February 2017 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Individual code contributions for simulation systems for self driving cars
+	\item Sprint to Sprint planning and execution of cross site team focused on sensor simulation
+	\item Architect software solutions that tackle problems dealing with multiple teams across autonomy, simulation, and other offline testing groups
+\end{itemize}
+\textbf{Crystal Fish Games} \hfill Atlanta, GA\\
+\textit{Contracted Programmer} \hfill October 2015 - May 2016\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Implement code for various aspects of Unity 3D Game Project
+	\item Observe and work under veteran programmers with industry experience
+	\item Collaborate closely with the Crystal Fish team to ensure quality game design and mechanics
+\end{itemize}
+\textbf{Cartoon Network Digital} \hfill Atlanta, GA\\
+\textit{Quality Assurance Coop} \hfill Aug. 2014 - May 2016\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Worked with producers and developers to ensure games launch bug-free
+	\item Facilitated launch of several mobile titles as lead member of Quality Assurance department in absence of QA Manager
+\end{itemize}
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Soft skills:  & Communication, Meeting Management, Team leadership, Agile/SaFe methodologies \\
+	Technologies: & C++ proficient, Python proficient, Unreal Engine 4, Unity Game Engine, Git   \\
+\end{tabular}
+\vspace{2mm}
+
+
+
+
+
+\ 
+\end{document}
