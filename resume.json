@@ -1,0 +1,115 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Work Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  "basics": {
+    "name": "Neal Kaviratna",
+    "email": "kaviratnaneal@gmail.com",
+    "phone": "9122281121",
+    "location": {
+      "address": "Pittsburgh, PA"
+    },
+    "website": "https://www.linkedin.com/in/nealkaviratna/"
+  },
+  "education": [
+    {
+      "institution": "Georgia Institute of Technology",
+      "area": "Computer Science",
+      "studyType": "BS",
+      "endDate": "December 2016",
+      "location": "Atlanta, GA",
+      "startDate": "Sep 2012"
+    },
+    {}
+  ],
+  "work": [
+    {
+      "company": "Uber ATG",
+      "location": "Pittsburgh, PA",
+      "website": "",
+      "endDate": "Present",
+      "highlights": [
+        "Individual code contributions for simulation systems for self driving cars",
+        "Sprint to Sprint planning and execution of cross site team focused on sensor simulation ",
+        "Architect software solutions that tackle problems dealing with multiple teams across autonomy, simulation, and other offline testing groups"
+      ],
+      "position": "Software Engineer - Senior Software Engineer",
+      "startDate": "February 2017"
+    },
+    {
+      "highlights": [
+        "Implement code for various aspects of Unity 3D Game Project",
+        "Observe and work under veteran programmers with industry experience",
+        "Collaborate closely with the Crystal Fish team to ensure quality game design and mechanics"
+      ],
+      "company": "Crystal Fish Games",
+      "position": "Contracted Programmer",
+      "location": "Atlanta, GA",
+      "startDate": "October 2015",
+      "endDate": "May 2016"
+    },
+    {
+      "highlights": [
+        "Worked with producers and developers to ensure games launch bug-free",
+        "Facilitated launch of several mobile titles as lead member of Quality Assurance department in absence of QA Manager"
+      ],
+      "company": "Cartoon Network Digital",
+      "position": "Quality Assurance Coop",
+      "startDate": "Aug. 2014",
+      "endDate": "May 2016",
+      "location": "Atlanta, GA"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Communication",
+        "Meeting Management",
+        "Team leadership",
+        "Agile/SaFe methodologies"
+      ],
+      "name": "Soft skills"
+    },
+    {
+      "keywords": [
+        "C++ proficient",
+        "Python proficient",
+        "Unreal Engine 4",
+        "Unity Game Engine",
+        "Git"
+      ],
+      "name": "Technologies"
+    }
+  ],
+  "projects": [
+    {
+      "description": "",
+      "url": "",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
