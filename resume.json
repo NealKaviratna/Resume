@@ -4,7 +4,7 @@
     "work": "Work Experience",
     "education": "Education",
     "skills": "Skills",
-    "projects": "Projects"
+    "projects": "Presentations"
   },
   "basics": {
     "name": "Neal Kaviratna",
@@ -24,30 +24,38 @@
       "location": "Atlanta, GA",
       "startDate": "Sep 2012"
     },
-    {}
+    {
+      "institution": "Georgia Institute of Technology",
+      "location": "Atlanta, GA (Online)",
+      "studyType": "Online MS",
+      "area": "Computer Science",
+      "startDate": "Jan 2020",
+      "endDate": "Present"
+    }
   ],
   "work": [
     {
       "company": "Uber ATG",
       "location": "Pittsburgh, PA",
       "website": "",
-      "endDate": "Present",
+      "endDate": "December 2020",
       "highlights": [
-        "Individual code contributions for simulation systems for self driving cars",
-        "Sprint to Sprint planning and execution of cross site team focused on sensor simulation ",
-        "Architect software solutions that tackle problems dealing with multiple teams across autonomy, simulation, and other offline testing groups"
+        "Led technical effort to make simulation adaptable for large scale autonomy-software changes (fundamental restructuring of the robot stack). Architected and implemented solution for 100s of autonomy engineers to test and land new system, while building consensus across Autonomy, Systems Engineering, and Safety groups on cleanly transitioning to the new simulation modality.",
+        "Key Contributor to Simulation Engine for testing autonomous vehicles. Contributions include: Camera Simulation and auto-labeling, Automated Scenario Generation from real world data, Actor Trajectory editor and associated movement code, and software bridge for interfacing with 2 robotic operating systems.",
+        "Acting Manager for 6+ person engineering team for 11 weeks (manager on leave). Succesfully supported team through group reorganization, Addressed performance concerns of team members during fully remote time period. Managed Quarterly planning for group.",
+        "Tech Lead on team providing reliable software solutions that scale to hundreds of thousands of sensor simulations, allowing deep exploration of autonomy behavior across multiple dimensions of scenario parameters (eg: actor position, speed etc.) Managed Sprint to Sprint planning and execution of multiple engineers.",
+        "Positive Culture contributions - Co-hosted Diversity and Inclusion chat with Director for Simulation organization, organized team building activities, and helped drive positive team culture."
       ],
       "position": "Software Engineer - Senior Software Engineer",
       "startDate": "February 2017"
     },
     {
       "highlights": [
-        "Implement code for various aspects of Unity 3D Game Project",
-        "Observe and work under veteran programmers with industry experience",
-        "Collaborate closely with the Crystal Fish team to ensure quality game design and mechanics"
+        "Implement code for various aspects of Unity 3D Game Project. Adding features based on Crystal Fish Games (CFG) request to a large existing codebase.",
+        "Collaborate closely with the CFG team to ensure quality game design and mechanics"
       ],
       "company": "Crystal Fish Games",
-      "position": "Contracted Programmer",
+      "position": "Contracted Software Engineer",
       "location": "Atlanta, GA",
       "startDate": "October 2015",
       "endDate": "May 2016"
@@ -68,6 +76,16 @@
     {
       "level": "",
       "keywords": [
+        "C++ proficient",
+        "Python proficient",
+        "Unreal Engine 4",
+        "Unity Game Engine",
+        "Git"
+      ],
+      "name": "Technologies"
+    },
+    {
+      "keywords": [
         "Communication",
         "Meeting Management",
         "Team leadership",
@@ -77,22 +95,30 @@
     },
     {
       "keywords": [
-        "C++ proficient",
-        "Python proficient",
-        "Unreal Engine 4",
-        "Unity Game Engine",
-        "Git"
+        "Chess",
+        "Super Smash Brothers",
+        "Travel (ask me about my camper trailer)",
+        "Cooking"
       ],
-      "name": "Technologies"
+      "name": "Hobbies"
     }
   ],
   "projects": [
     {
-      "description": "",
-      "url": "",
+      "keywords": [
+        null
+      ],
+      "description": "\"Testing Self Driving Cars with Game Development Tools\". Talk on building a game engine based simulator at ATG and lessons learned. See link for abstract in conference proceedings.",
+      "url": "dl.acm.org/doi/10.1145/3388767.3408334",
+      "name": "Siggraph 2020 Tech Talk"
+    },
+    {
       "keywords": [
         ""
-      ]
+      ],
+      "name": "Siggraph Spotlight Podcast Feature",
+      "description": "Additionally featured in Siggraph Spotlight podcast episode 29 \"Game On\" alongside 3 others presenting at the conference. Podcast discusses innovative applications for games technology beyond entertainment. See link for podcast episode on Spotify.",
+      "url": "https://sptfy.com/nkaviratna_siggraph"
     }
   ],
   "awards": [
@@ -106,10 +132,10 @@
   "sections": [
     "templates",
     "profile",
-    "education",
     "work",
-    "skills",
     "projects",
+    "skills",
+    "education",
     "awards"
   ]
 }
