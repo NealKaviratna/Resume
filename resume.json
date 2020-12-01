@@ -19,18 +19,18 @@
     {
       "institution": "Georgia Institute of Technology",
       "area": "Computer Science",
-      "studyType": "BS",
-      "endDate": "December 2016",
-      "location": "Atlanta, GA",
-      "startDate": "Sep 2012"
+      "endDate": "Present",
+      "location": "Atlanta, GA (Online)",
+      "studyType": "Online MS",
+      "startDate": "Jan 2020"
     },
     {
       "institution": "Georgia Institute of Technology",
-      "location": "Atlanta, GA (Online)",
-      "studyType": "Online MS",
+      "location": "Atlanta, GA",
+      "studyType": "BS",
       "area": "Computer Science",
-      "startDate": "Jan 2020",
-      "endDate": "Present"
+      "endDate": "Dec 2016",
+      "startDate": "Sep 2012"
     }
   ],
   "work": [
@@ -40,9 +40,9 @@
       "website": "",
       "endDate": "December 2020",
       "highlights": [
-        "Led technical effort to make simulation adaptable for large scale autonomy-software changes (fundamental restructuring of the robot stack). Architected and implemented solution for 100s of autonomy engineers to test and land new system, while building consensus across Autonomy, Systems Engineering, and Safety groups on cleanly transitioning to the new simulation modality.",
-        "Key Contributor to Simulation Engine for testing autonomous vehicles. Contributions include: Camera Simulation and auto-labeling, Automated Scenario Generation from real world data, Actor Trajectory editor and associated movement code, and software bridge for interfacing with 2 robotic operating systems.",
-        "Acting Manager for 6+ person engineering team for 11 weeks (manager on leave). Succesfully supported team through group reorganization, Addressed performance concerns of team members during fully remote time period. Managed Quarterly planning for group.",
+        "Led technical effort to make simulation adaptable for large scale autonomy-software changes (fundamental restructuring of the robot stack). Architected and implemented solution for 100s of autonomy engineers to test and land new system while building consensus across Autonomy, Systems Engineering, and Safety groups on cleanly transitioning to the new simulation modality.",
+        "Key Contributor to Simulation Engine for testing autonomous vehicles. Contributions include: Camera Simulation and Auto-labeling, Automated Scenario Generation from real world data, Actor Trajectory Editor and associated movement code, and software bridge for interfacing with 2 robotic operating systems.",
+        "Acting Manager for 6+ person engineering team for 11 weeks (manager on leave). Succesfully supported team through group reorganization. Helped team remain performant through continued fully remote time period. Managed Quarterly planning for group.",
         "Tech Lead on team providing reliable software solutions that scale to hundreds of thousands of sensor simulations, allowing deep exploration of autonomy behavior across multiple dimensions of scenario parameters (eg: actor position, speed etc.) Managed Sprint to Sprint planning and execution of multiple engineers.",
         "Positive Culture contributions - Co-hosted Diversity and Inclusion chat with Director for Simulation organization, organized team building activities, and helped drive positive team culture."
       ],
@@ -51,8 +51,8 @@
     },
     {
       "highlights": [
-        "Implement code for various aspects of Unity 3D Game Project. Adding features based on Crystal Fish Games (CFG) request to a large existing codebase.",
-        "Collaborate closely with the CFG team to ensure quality game design and mechanics"
+        "Implemented code for various aspects of Unity 3D Game Project. Added features based on Crystal Fish Games (CFG) requests into a large pre-existing codebase.",
+        "Collaborated closely with the CFG team to ensure quality game design and mechanics."
       ],
       "company": "Crystal Fish Games",
       "position": "Contracted Software Engineer",
@@ -62,8 +62,8 @@
     },
     {
       "highlights": [
-        "Worked with producers and developers to ensure games launch bug-free",
-        "Facilitated launch of several mobile titles as lead member of Quality Assurance department in absence of QA Manager"
+        "Worked with producers and developers to ensure games launch bug-free.",
+        "Facilitated launch of several mobile titles as lead member of Quality Assurance department in absence of QA Manager."
       ],
       "company": "Cartoon Network Digital",
       "position": "Quality Assurance Coop",
